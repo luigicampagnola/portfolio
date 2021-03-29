@@ -4,6 +4,10 @@ import './index.css';
 import App from './Containers/App/App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
+import 'animate.css';
+import 'react-animate-on-scroll';
+
+
 
 
 ReactDOM.render(

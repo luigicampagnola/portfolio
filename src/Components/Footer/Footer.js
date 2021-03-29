@@ -1,9 +1,10 @@
 import React from "react";
 import './Footer.css'
 
-const Footer = () => {
+
+const Footer = (props) => {
   return (
-    <div className="mt6 cf dt-l w-100 bt b--black-10 pv4 back-ground ">
+    <div id='myLinks' className="mt6 cf dt-l w-100 bt b--black-10 pv4 back-ground ">
       <footer className="pv4 ph3 tc">
         <a
           className="link near-white hover-silver dib mh3 tc"
