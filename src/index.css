@@ -3,18 +3,10 @@ body {
   font-family: "Signika", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    52deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(66, 89, 78, 1) 13%,
-    rgba(144, 238, 255, 1) 36%,
-    rgba(7, 51, 66, 1) 68%,
-    rgba(3, 143, 210, 1) 100%
-  );
+  background-color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-};
+}

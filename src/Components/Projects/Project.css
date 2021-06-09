@@ -1,7 +1,6 @@
 .button-ps {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
+  margin-left: 3rem;
+
 }
 
 .container {
@@ -10,6 +9,11 @@
   margin: auto;
   position: relative;
   overflow: hidden;
+}
+
+.title-font {
+  font-size: 3rem;
+
 }
 .container > div {
   position: absolute;
