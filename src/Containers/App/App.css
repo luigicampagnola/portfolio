@@ -20,7 +20,7 @@
 }
 
 .under-lining {
-  content: '';
+  content: "";
   display: block;
   /* margin: 0 auto; */
   width: 24px;
@@ -28,18 +28,31 @@
   opacity: 0.6;
 }
 
-
 .project {
   background-color: white;
   color: #282c34;
   padding-top: 4rem;
 }
 
+.logos {
+  margin-top: 6rem;
+}
 
 .after {
   width: 24px;
   border-bottom: 4px solid #282c34;
   opacity: 0.6;
+}
+
+.title-skills {
+  margin-right: 11rem;
+  text-decoration: underline;
+}
+
+.skills {
+  margin-top: auto;
+  max-width: 100%;
+  color: white;
 }
 
 .particles {
@@ -58,7 +71,7 @@
   }
 }
 
-.live-btn{
+.live-btn {
   background-color: rgba(3, 143, 210, 1);
 }
 
@@ -71,6 +84,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.button-ps {
+  margin-left: 1rem;
+  min-width: 50%;
 }
 
 @keyframes App-logo-spin {
